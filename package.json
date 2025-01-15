@@ -1,0 +1,19 @@
+{
+  "name": "react-exp",
+  "version": "1.0.0",
+  "description": "React Experiments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ozcodx/react-exp.git"
+  },
+  "author": "ozcodx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ozcodx/react-exp/issues"
+  },
+  "homepage": "https://github.com/ozcodx/react-exp#readme"
+}
