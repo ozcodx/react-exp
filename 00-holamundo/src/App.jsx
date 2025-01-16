@@ -1,19 +1,14 @@
-import "./App.css"
+import { Fragment } from "react"
+import {FollowCard} from './FollowCard.jsx'
 
 export function App() {
 	return (
-		<article className='follow-card'>
-			<header>
-				<img className='profile-img' src= "https://shorturl.at/JKk4E" />
-				<div>
-					<strong>Name</strong>
-					<span>@username</span>
-				</div>
-			</header>
-
-			<aside>
-				Seguir
-			</aside>
-		</article>
+		<Fragment>
+			<section className="follow-section">
+				<FollowCard username='midudev' name='Miguel Duran' />
+				<FollowCard username='janderson' name='John Anderson' />
+				<FollowCard username='pachom' name='Francisco Jose Muribu' />
+			</section>
+		</Fragment>
 		)
 }
